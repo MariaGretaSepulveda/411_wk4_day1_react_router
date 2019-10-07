@@ -1,6 +1,8 @@
 import React from 'react'
 import { Card, CardContent, CardActions, Divider } from '@material-ui/core'
 import cars from '../cars.json'
+import {Link} from "react-router-dom"
+
 
 const Home = () => {
     console.log('CARS', cars)
